@@ -6,7 +6,7 @@ filtered by the "feature" label and verify the issue you're about to submit isn'
 
 2. Make sure you're including the name of the affected component if applicable, as an example:
 
-account-transaction-list or scan-address
+account-transation-list or scan-address
 --->
 
 ### Summary
