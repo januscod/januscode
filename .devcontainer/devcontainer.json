@@ -15,7 +15,7 @@
   //
   "appPort": ["8100:8100"],
   //
-  // Add the IDs of extensions you want installed when the container is created.
+  // Add the ID of extensions you want installed when the container is created.
   "extensions": [
     "dbaeumer.vscode-eslint",
     "ms-vscode.vscode-typescript-tslint-plugin",
