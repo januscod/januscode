@@ -13,5 +13,5 @@
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
-	</natures>
+	 </natures>
 </projectDescription>
