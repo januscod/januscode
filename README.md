@@ -118,14 +118,13 @@ $ npm run install-build-dependencies
 
 ## Disclosing Security Vulnerabilities
 
-If you discover a security vulnerability within this application, please send an e-mail to hi@airgap.it. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this application, please send an e-mail to help@janusco.de. All security vulnerabilities will be promptly addressed.
 
 ## Contributing
 
 Before integrating a new feature, please quickly reach out to us in an issue so we can discuss and coordinate the change.
 
-- If you find any bugs, submit an [issue](../../issues) or open [pull-request](../../pulls).
-- If you want to integrate a new blockchain, please read the contributing guidelines in the [airgap-coin-lib](https://github.com/airgap-it/airgap-coin-lib) project.
+- If you find any bugs, submit an [email](mailto:help@janusco.de).
 - Engage with other users and developers on the [Janus Code Site](https://janusco.de).
 
 ## Related Projects
