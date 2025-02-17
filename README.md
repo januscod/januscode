@@ -1,4 +1,4 @@
-# AirGap Vault
+# Janus Code
 
 <p align="left">
     <img src="./banner.png" />
@@ -6,13 +6,11 @@
 
 > Self custody made simple and secure. Protect your crypto and store your private keys offline.
 
-[AirGap](https://airgap.it) is a crypto wallet system that lets you secure cypto assets with one secret on an offline device. The AirGap Vault application is installed on a dedicated device that has no connection to any network, thus it is air gapped. The [AirGap Wallet](https://github.com/airgap-it/airgap-wallet) is installed on your everyday smartphone.
+[Janus Code Wallet](https://janusco.de) is a crypto wallet system that lets you secure cypto assets with one secret on an offline device. The Janus Code application is installed on a dedicated device that has no connection to any network, thus it is air gapped. The [Janus Code Wallet](https://github.com/januscod/januscode) is installed on your everyday smartphone.
 
 ## Description
 
-AirGap Vault is responsible for secure key generation. Entropy from audio, video, touch and accelerometer are used together with the output of the hardware random number generator. The generated secret is saved in the secure enclave of the device, only accessible by biometric authentication. Accounts for multiple protcols can be created. Transactions are prepared by the AirGap Wallet and then transferred to the offline device via QR code, where it is signed and sent back to the Wallet using another QR code.
-
-AirGap Vault is a hybrid application (using the same codebase for Android and iOS). Created using AirGap's protocol agnostic `airgap-coin-lib` library to interact with different protocols and our own secure storage implementation.
+Janus Code is responsible for secure key generation. Entropy from audio, video, touch and accelerometer are used together with the output of the hardware random number generator. The generated secret is saved in the secure enclave of the device, only accessible by biometric authentication. Accounts for multiple protcols can be created. Transactions are prepared by the Janus Code and then transferred to the offline device via QR code, where it is signed and sent back to the Wallet using another QR code.
 
 <p align="left">
     <img src="./devices.png" />
@@ -20,20 +18,20 @@ AirGap Vault is a hybrid application (using the same codebase for Android and iO
 
 ## Download
 
-- [Google Play](https://play.google.com/store/apps/details?id=it.airgap.vault)
-- [App Store](https://itunes.apple.com/us/app/airgap-vault-secure-secrets/id1417126841?l=de&ls=1&mt=8)
+- [Google Play](https://play.google.com/store/apps/details?id=it.janus.code) Release 4th of March
+- App Store Coming soon...
 
 ## Features
 
 - Secure secret generation with added entropy from audio, video, touch and device accelerometer
 - Secure storage using the secure enclave of the device, accessible only by biometric authenticaiton
-- Secure, one-way communication with AirGap Wallet over QR codes or URL-Schemes (app switching)
-- Create accounts for all supported currencies like Aeternity, Bitcoin, Ethereum, Tezos, Cosmos, Kusama, Polkadot, Groestlcoin etc.
+- Secure, one-way communication with Janus Code over QR codes or URL-Schemes (app switching)
+- Create accounts for all supported currencies like Solana, Bitcoin, Ethereum, Tezos, Cosmos, Kusama, Polkadot, USDC etc.
 - Sign transactions offline without the secret ever leaving your device
 
 ## Security
 
-The security concept behind air-gapped systems is to work with two physically separated devices, one of which has no connection to the outside world or any network. In the context of AirGap, the component which has no internet connection is the AirGap Vault. The two components, AirGap Vault and AirGap Wallet, communicate through one-way communication using QR codes.
+The security concept behind Janus systems is to work with two physically separated devices, one of which has no connection to the outside world or any network. In the context of Janus, the component which has no internet connection is the Janus Code. The two components, Janus Code and Janus Code Wallet, communicate through one-way communication using QR codes.
 
 ### Key Generation
 
@@ -69,19 +67,13 @@ function seedEntropy(additionalEntropyArray) {
 
 ### Supply Chain Attacks
 
-In the past years, mutliple cryptocurrency wallets have been targeted by attackers to try and steal users funds. One common attack vector is the supply chain attack. In this attack, the attacker tries to compromise a dependency that is used in the wallet and use it to inject malicious code. At AirGap, we take utmost care of evaluating the dependencies we use. We have also introduced a system that separates the dependencies used during testing and development from the dependencies that are used to build and run the project. This reduces the risk of malicious code injection during the build and test steps.
-
-### Verifiable Builds
-
-A very important property of any open source wallet is reprucibility. This means that executable that is downloaded from the Play Store or App Store can be exactly reproduced by compiling the open source code. If this is not the case, it means that there is hidden or removed code in the published version that is not visible in the published source code.
-
-The project [WalletScrutiny](https://walletscrutiny.com/posts/it.airgap.vault/) examines a wide variety of cryptocurrency wallets to determine their reproducibility. We're happy to say that **AirGap Vault** was one of the first wallets to be marked as "reproducible".
+In the past years, mutliple cryptocurrency wallets have been targeted by attackers to try and steal users funds. One common attack vector is the supply chain attack. In this attack, the attacker tries to compromise a dependency that is used in the wallet and use it to inject malicious code. At Janus Code, we take utmost care of evaluating the dependencies we use. We have also introduced a system that separates the dependencies used during testing and development from the dependencies that are used to build and run the project. This reduces the risk of malicious code injection during the build and test steps.
 
 ### Security Audits
 
 The application as a whole, as well as multiple components, have been audited by different third party companies.
 
-**All audits have found no way of extracting the private key from AirGap Vault.**
+**All audits have found no way of extracting the private key from Janus Code.**
 
 The reports will be released once all the findings have been resolved.
 
@@ -134,12 +126,9 @@ Before integrating a new feature, please quickly reach out to us in an issue so 
 
 - If you find any bugs, submit an [issue](../../issues) or open [pull-request](../../pulls).
 - If you want to integrate a new blockchain, please read the contributing guidelines in the [airgap-coin-lib](https://github.com/airgap-it/airgap-coin-lib) project.
-- Engage with other users and developers on the [AirGap Telegram](https://t.me/AirGap).
+- Engage with other users and developers on the [Janus Code Site](https://janusco.de).
 
 ## Related Projects
 
-- [AirGap Wallet](https://github.com/airgap-it/airgap-wallet)
-- [airgap-coin-lib](https://github.com/airgap-it/airgap-coin-lib)
-
-- [AirGap Linux Distribution](https://github.com/airgap-it/airgap-distro)
-- [apk-signer](https://github.com/airgap-it/airgap-raspberry-apk-signer)
+- [Janus Code Wallet](https://github.com/januscod/Janus-Code-Wallet)
+- [Janus Code Linux Distribution](https://github.com/januscod/Janus-Code-Distro.git)
