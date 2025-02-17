@@ -1,4 +1,4 @@
-arguments=
+arguments= 
 auto.sync=false
 build.scans.enabled=false
 connection.gradle.distribution=GRADLE_DISTRIBUTION(WRAPPER)
@@ -11,3 +11,4 @@ offline.mode=false
 override.workspace.settings=true
 show.console.view=true
 show.executions.view=true
+show.workspace.view=true
