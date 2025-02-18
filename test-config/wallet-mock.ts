@@ -1,7 +1,6 @@
 import { AirGapMarketWallet, IAirGapTransaction, getProtocolByIdentifier } from 'airgap-coin-lib'
 import BigNumber from 'bignumber.js'
 import { MainProtocolSymbols } from 'airgap-coin-lib/dist/utils/ProtocolSymbols'
-
 class WalletMock {
   public ethWallet: AirGapMarketWallet = Object.assign(
     new AirGapMarketWallet(
