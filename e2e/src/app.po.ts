@@ -4,7 +4,6 @@ export class AppPage {
   public navigateTo() {
     return browser.get('/')
   }
-
   public getPageTitle() {
     return element(by.css('ion-title')).getText()
   }
