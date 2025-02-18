@@ -2,7 +2,6 @@
 *.tmp.*
 .vscode/
 npm-debug.log*
-
 .idea/
 .sourcemaps/
 .sass-cache/
