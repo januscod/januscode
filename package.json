@@ -30,6 +30,7 @@
     "install-test-dependencies": "node install-test-deps.js",
     "install-build-dependencies": "node install-build-deps.js",
     "apply-diagnostic-modules": "node apply-diagnostic-modules.js"
+    
   },
   "dependencies": {
     "@airgap/angular-core": "0.0.4-beta.8",
