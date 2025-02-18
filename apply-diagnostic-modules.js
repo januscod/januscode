@@ -1,5 +1,4 @@
 // a workaround for cordova-diagnostic-plugin: the plugin ignores Capacitor config setting and installs all its features
-
 const fs = require('fs')
 const path = require('path')
 
