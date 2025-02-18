@@ -9,7 +9,6 @@ import { TranslateFakeLoader, TranslateLoader, TranslateModule } from '@ngx-tran
 
 import { ComponentsModule } from '../src/app/components/components.module'
 import { PipesModule } from '../src/app/pipes/pipes.module'
-
 import {
   AlertControllerMock,
   DeeplinkMock,
