@@ -1,6 +1,6 @@
 import { newSpy } from './unit-test-helper'
 
-// tslint:disable:max-classes-per-file
+// tslint:disable:max-classes-per-fil
 
 export type Spied<T> = { [Method in keyof T]: jasmine.Spy }
 
