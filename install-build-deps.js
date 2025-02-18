@@ -13,6 +13,7 @@ var __assign =
       }
     return __assign.apply(this, arguments)
   }
+
 exports.__esModule = true
 var fs_1 = require('fs')
 var pkg = JSON.parse(fs_1.readFileSync('./package.json', 'utf-8'))
