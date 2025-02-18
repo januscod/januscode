@@ -1,4 +1,4 @@
-import { AppInfoPlugin } from '@airgap/angular-core'
+import { AppInfoPlugin } from '@janusvault/angular-core'
 import { AppPlugin, ClipboardPlugin, SplashScreenPlugin, StatusBarPlugin } from '@capacitor/core'
 
 import { newSpy } from './unit-test-helper'
