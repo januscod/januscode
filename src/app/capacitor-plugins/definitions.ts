@@ -5,7 +5,6 @@ export interface CameraPreviewPlugin {
   stop(): Promise<void>
   capture({}): Promise<{ value: string }>
 }
-
 export interface SecurityUtilsPlugin {
   waitForOverlayDismiss(): Promise<void>
   assessDeviceIntegrity(): Promise<{ value: boolean }>
