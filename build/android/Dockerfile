@@ -1,5 +1,4 @@
 FROM beevelop/ionic:v5.2.3
-
 RUN apt-get update -y && apt-get install -y \
     bzip2 \
     build-essential  \
