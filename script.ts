@@ -10,7 +10,6 @@ const unsignedTx: UnsignedTezosTransaction = {
   callback: 'airgap-wallet://?d='
 }
 console.log('THIS IS THE PROTOCOL', protocol)
-
 protocol
   .getTransactionDetails(unsignedTx)
   .then(airGapTxs => {
