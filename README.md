@@ -6,7 +6,7 @@
 
 > Self custody made simple and secure. Protect your crypto and store your private keys offline.
 
-[Janus Code Wallet](https://janusco.de) is a crypto wallet system that lets you secure cypto assets with one secret on an offline device. The Janus Code application is installed on a dedicated device that has no connection to any network, thus it is air gapped. The [Janus Code Wallet](https://github.com/januscod/januscode) is installed on your everyday smartphone.
+[Janus Code Wallet](https://janusco.de) is a crypto wallet system that lets you secure cypto assets with one secret on an offline device. The Janus Code application is installed on a dedicated device that has no connection to any network. The [Janus Code Wallet](https://github.com/januscod/januscode) is installed on your everyday smartphone.
 
 ## Description
 
