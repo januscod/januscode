@@ -18,7 +18,7 @@ Janus Code is responsible for secure key generation. Entropy from audio, video, 
 
 ## Download
 
-- [Google Play](https://play.google.com/store/apps/details?id=it.janus.code) Release 4th of March
+- [Google Play](https://play.google.com/store/apps/details?id=it.janus.code) Release 5th of March
 - App Store Coming soon...
 
 ## Features
